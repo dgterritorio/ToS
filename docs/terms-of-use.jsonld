@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DigitalDocument",
+  "name": "Termos de utilização das OGC API da Direção-Geral do Território",
+  "inLanguage": "pt-PT",
+  "url": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/terms-of-use.jsonld",
+  "publisher": {
+    "@type": "GovernmentOrganization",
+    "name": "Direção-Geral do Território",
+    "url": "https://www.dgterritorio.gov.pt/"
+  },
+  "about": {
+    "@type": "WebAPI",
+    "name": "OGC API da Direção-Geral do Território",
+    "url": "https://ogcapi.dgterritorio.gov.pt/"
+  },
+  "termsOfService": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/termos/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "Termos de utilização das OGC API públicas da Direção-Geral do Território.",
+  "additionalProperty": [
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Objecto",
+      "value": "Os presentes termos estabelecem as condições gerais de utilização das OGC API públicas disponibilizadas pela Direção-Geral do Território (DGT)."
+    },
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Utilização responsável",
+      "value": "Os utilizadores devem evitar comportamentos que possam degradar o serviço ou prejudicar o acesso de outros utilizadores."
+    },
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Licença dos dados",
+      "value": "A licença aplicável deve ser consultada nos metadados da respectiva colecção."
+    },
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Manutenção e disponibilidade",
+      "value": "Os serviços podem ficar temporariamente indisponíveis para manutenção, actualização, correcção de erros ou evolução tecnológica."
+    },
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Limitação",
+      "value": "Os utilizadores devem avaliar a adequação dos dados e do serviço à finalidade pretendida. A utilização dos dados em sistemas ou aplicações de terceiros é da responsabilidade dos respectivos utilizadores."
+    },
+    {
+      "@type": "schema:PropertyValue",
+      "name": "Requisitos para utilização automatizada",
+      "value": [
+        "utilizar paginação",
+        "aplicar filtros quando disponíveis",
+        "limitar pedidos concorrentes",
+        "evitar pedidos repetitivos desnecessários",
+        "reutilizar resultados quando adequado",
+        "evitar consultas de grandes volumes sem necessidade",
+        "implementar tratamento adequado de erros e indisponibilidade temporária"
+      ]
+    }
+  ],
+  "subjectOf": {
+    "@type": "DigitalDocument",
+    "name": "Versão JSON dos termos de utilização",
+    "encodingFormat": "application/json",
+    "url": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/terms-of-use.json"
+  }
+}

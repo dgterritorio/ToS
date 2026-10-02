@@ -1,0 +1,31 @@
+:root {
+  --md-primary-fg-color: #005a9c;
+  --md-primary-fg-color--light: #1976b9;
+  --md-primary-fg-color--dark: #003f6f;
+  --md-accent-fg-color: #007c91;
+}
+.md-header {
+  box-shadow: 0 2px 6px rgba(0,0,0,.12);
+}
+.md-typeset h1 { font-weight: 700; }
+.md-typeset h2 { margin-top: 1.8em; }
+.md-typeset table:not([class]) { font-size: .9rem; }
+.grid.cards { margin-top: 1rem; }
+.md-typeset .admonition { border-radius: .25rem; }
+
+/* DGT institutional identity */
+.md-header__button.md-logo {
+  padding: 0.25rem 0.5rem;
+}
+.md-header__button.md-logo img {
+  width: auto;
+  height: 2.25rem;
+  max-width: 14rem;
+  object-fit: contain;
+}
+@media screen and (max-width: 600px) {
+  .md-header__button.md-logo img {
+    height: 1.9rem;
+    max-width: 10rem;
+  }
+}

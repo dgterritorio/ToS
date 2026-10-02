@@ -1,0 +1,75 @@
+site_name: OGC API — Direção-Geral do Território
+site_description: Documentação e condições de utilização das OGC API da Direção-Geral do Território (DGT)
+site_author: Direção-Geral do Território
+#site_url: https://ogcapi.dgterritorio.gov.pt/termosdoservico/
+copyright: "Direção-Geral do Território"
+
+theme:
+  name: material
+  logo: assets/DGT_logo.png
+  favicon: assets/favicon.png
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  font: false
+
+plugins:
+  - search
+  - meta
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Português:
+      - Visão geral: pt/index.md
+      - Utilização:
+          - Acesso e descoberta: pt/acesso.md
+          - OpenAPI: pt/openapi.md
+          - Exemplos de utilização: pt/exemplos.md
+      - Condições:
+          - Termos de utilização: pt/termos.md
+          - Licença: pt/licenca.md
+      - Qualidade:
+          - Qualidade do serviço: pt/qualidade.md
+          - Monitorização: pt/monitorizacao.md
+      - Governação:
+          - Dados e actualização: pt/dados.md
+          - Alterações da API: pt/alteracoes.md
+      - Contacto: pt/contacto.md
+  - English:
+      - Overview: en/index.md
+      - Use the API:
+          - Access and discovery: en/access.md
+          - OpenAPI: en/openapi.md
+          - Usage examples: en/examples.md
+      - Conditions:
+          - Terms of use: en/terms.md
+          - Licence: en/license.md
+      - Quality:
+          - Service quality: en/quality.md
+          - Service quality monitoring: en/monitoring.md
+      - Governance:
+          - Data and updates: en/data.md
+          - API changes: en/changes.md
+      - Contact: en/contact.md
+
+
+
+extra_javascript:
+  - javascripts/english-ui.js

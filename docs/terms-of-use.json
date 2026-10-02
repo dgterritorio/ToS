@@ -1,0 +1,68 @@
+{
+  "title": "Termos de utilização das OGC API da Direção-Geral do Território",
+  "language": "pt-PT",
+  "version": null,
+  "publisher": {
+    "name": "Direção-Geral do Território",
+    "url": "https://www.dgterritorio.gov.pt/"
+  },
+  "api": {
+    "name": "OGC API da Direção-Geral do Território",
+    "url": "https://ogcapi.dgterritorio.gov.pt/"
+  },
+  "termsOfUse": {
+    "scope": "As presentes condições aplicam-se à utilização das OGC API disponibilizadas pela Direção-Geral do Território (DGT).",
+    "sections": [
+      {
+        "id": "objecto",
+        "title": "Objecto",
+        "text": "Os presentes termos estabelecem as condições gerais de utilização das OGC API públicas disponibilizadas pela Direção-Geral do Território (DGT).",
+        "requirements": [
+          "A utilização da API deve respeitar a legislação aplicável.",
+          "A utilização da API deve respeitar as condições de licença dos dados.",
+          "A utilização da API deve respeitar as condições técnicas definidas nesta documentação."
+        ]
+      },
+      {
+        "id": "utilizacao-responsavel",
+        "title": "Utilização responsável",
+        "text": "Os utilizadores devem evitar comportamentos que possam degradar o serviço ou prejudicar o acesso de outros utilizadores.",
+        "automatedUse": {
+          "requirements": [
+            "utilizar paginação",
+            "aplicar filtros quando disponíveis",
+            "limitar pedidos concorrentes",
+            "evitar pedidos repetitivos desnecessários",
+            "reutilizar resultados quando adequado",
+            "evitar consultas de grandes volumes sem necessidade",
+            "implementar tratamento adequado de erros e indisponibilidade temporária"
+          ]
+        }
+      },
+      {
+        "id": "licenca-dados",
+        "title": "Licença dos dados",
+        "metadataReference": "A licença aplicável deve ser consultada nos metadados da respectiva colecção.",
+        "license": {
+          "name": "CC BY 4.0 — Creative Commons Attribution 4.0 International",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      },
+      {
+        "id": "manutencao-disponibilidade",
+        "title": "Manutenção e disponibilidade",
+        "text": "Os serviços podem ficar temporariamente indisponíveis para manutenção, actualização, correcção de erros ou evolução tecnológica."
+      },
+      {
+        "id": "limitacao",
+        "title": "Limitação",
+        "text": "Os utilizadores devem avaliar a adequação dos dados e do serviço à finalidade pretendida. A utilização dos dados em sistemas ou aplicações de terceiros é da responsabilidade dos respectivos utilizadores."
+      }
+    ]
+  },
+  "humanReadable": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/termos/",
+  "machineReadable": {
+    "json": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/terms-of-use.json",
+    "jsonld": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/terms-of-use.jsonld"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Terms of use for the OGC APIs of the Directorate-General for Territory",
+  "language": "en",
+  "version": null,
+  "publisher": {
+    "name": "Direção-Geral do Território",
+    "url": "https://www.dgterritorio.gov.pt/"
+  },
+  "api": {
+    "name": "OGC APIs of the Directorate-General for Territory",
+    "url": "https://ogcapi.dgterritorio.gov.pt/"
+  },
+  "termsOfUse": {
+    "scope": "These conditions apply to the use of the public OGC APIs provided by the Directorate-General for Territory (DGT).",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Scope",
+        "text": "These terms establish the general conditions for using the public OGC APIs provided by the Directorate-General for Territory (DGT).",
+        "requirements": [
+          "API use must comply with applicable legislation.",
+          "API use must comply with the applicable data licence conditions.",
+          "API use must comply with the technical conditions defined in this documentation."
+        ]
+      },
+      {
+        "id": "responsible-use",
+        "title": "Responsible use",
+        "text": "Users should avoid behaviour that could degrade the service or impair access by other users.",
+        "automatedUse": {
+          "requirements": [
+            "use pagination",
+            "apply filters where available",
+            "limit concurrent requests",
+            "avoid unnecessary repeated requests",
+            "reuse results where appropriate",
+            "avoid unnecessarily large queries",
+            "implement appropriate handling of errors and temporary service unavailability"
+          ]
+        }
+      },
+      {
+        "id": "data-licence",
+        "title": "Data licence",
+        "metadataReference": "The applicable licence should be consulted in the metadata of the respective collection.",
+        "license": {
+          "name": "CC BY 4.0 — Creative Commons Attribution 4.0 International",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      },
+      {
+        "id": "maintenance-availability",
+        "title": "Maintenance and availability",
+        "text": "Services may be temporarily unavailable for maintenance, updates, corrections or technological evolution.",
+        "monitoringReference": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/en/qualidade/"
+      },
+      {
+        "id": "limitation",
+        "title": "Limitation",
+        "text": "Users should assess the suitability of the data and service for their intended purpose. The use of data in third-party systems or applications is the responsibility of their respective users."
+      }
+    ]
+  },
+  "humanReadable": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/en/termos/",
+  "machineReadable": {
+    "json": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/en/terms-of-use.json",
+    "jsonld": "https://ogcapi.dgterritorio.gov.pt/termosdoservico/en/terms-of-use.jsonld"
+  }
+}
