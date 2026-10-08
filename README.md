@@ -30,11 +30,9 @@ mkdocs build --strict
 
 O HTML estático fica em `site/`.
 
-## Publicação (opcional)
+## Publicação
 
-Adicionar subtree ao branch gh-pages
-
-`git subtree push --prefix site origin gh-pages`
+Este site e automaticamente publicado atraves de uma [GitHub action](https://github.com/dgterritorio/ogcapi-user/blob/main/.github/workflows/main.yml).Esta disponivel em: https://dgterritorio.github.io/tos/
 
 ## Formatos legíveis por máquina
 
