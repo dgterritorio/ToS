@@ -1,7 +1,7 @@
 site_name: OGC API — Direção-Geral do Território
 site_description: Documentação e condições de utilização das OGC API da Direção-Geral do Território (DGT)
 site_author: Direção-Geral do Território
-site_url: https://dgterritorio.github.io/tos/
+# site_url: https://dgterritorio.github.io/tos/
 copyright: "Direção-Geral do Território"
 
 theme:
