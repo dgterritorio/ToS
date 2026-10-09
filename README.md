@@ -32,7 +32,7 @@ O HTML estático fica em `site/`.
 
 ## Publicação
 
-Este site e automaticamente publicado atraves de uma [GitHub action](https://github.com/dgterritorio/ogcapi-user/blob/main/.github/workflows/main.yml).Esta disponivel em: https://dgterritorio.github.io/tos/
+Este site e automaticamente publicado atraves de uma [GitHub action](https://github.com/dgterritorio/ogcapi-user/blob/main/.github/workflows/main.yml).Esta disponivel em: https://dgterritorio.github.io/ToS/pt/ e https://dgterritorio.github.io/ToS/en/
 
 ## Formatos legíveis por máquina
 
