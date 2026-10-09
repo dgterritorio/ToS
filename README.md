@@ -46,4 +46,4 @@ A documentação está organizada por idioma:
 - Português: `http://127.0.0.1:8000/pt/`
 - English: `http://127.0.0.1:8000/en/`
 
-Na publicação em `/termosdoservico/`, os endereços correspondem a `/termosdoservico/pt/` e `/termosdoservico/en/`.
+<!-- Na publicação em `/termosdoservico/`, os endereços correspondem a `/termosdoservico/pt/` e `/termosdoservico/en/`. -->
